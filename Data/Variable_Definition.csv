@@ -1,0 +1,26 @@
+﻿Property ,Imaris Definition,Initial Parameter Extraction from Imaris,XGboost classifier training,Unsupervised UMAP Construction,Diffusion Map
+Track ID,"When Surfaces are linked together along a track, each track is given a unique identification number.",Yes,No,No,No
+Surface Module ID,Each Surface is given a unique identification number.,Yes,No,No,No
+Area,The sum of the triangle surfaces.,Yes,Yes,Yes,Yes
+Displacement XYZ,"The Displacement is a measure the distance that an object moves from the first time point position to its current position. Along each axis, this is calculated by subtracting the first time point position from a selected time point position.  Note: formulas can be found at: http://www.bitplane.com/download/manuals/ReferenceManual9_1_0.pdf",Yes (for all 3),Yes (for all 3),Yes (for all 3),No
+Intensity at center,Intensity at the center of the surface unit.,Yes,Yes,Yes,No
+"Intensity Max, Min, Standard Deviation, Mean","Max, Min, Standard Deviation, Mean intensities, respectively, of the surface unit",Yes (for all 4),Yes (for all 4),Yes (for all 4),Mean and Minimum Intensity Used
+Median Intensity,The Surfaces - intensity median is estimated from the intensity histogram,Yes,Yes,Yes,No
+Intensity Sum Over the Surface Module,"The voxel intensity statistics describe the voxels enclosed within the Surfaces (Center, Max, Mean, Median, Min, StdDev and Sum)",Yes,Yes,Yes,Yes
+Number of Voxels of the Surface Modules,Number of voxels within the selected Surface object.,Yes,Yes,Yes,No
+Position XYZ,"The X, Y and Z coordinates of the surface object. The value is equal to the value of the Center of Homogeneous Mass of the object.",Yes (for all 3),No,No,No
+Speed,The surfaces speed is the instantaneous speed of the object (um/s).The instantaneous speed is the scalar equivalent of the object velocity. Note: formulas can be found at: http://www.bitplane.com/download/manuals/ReferenceManual9_1_0.pdf,Yes,Yes,Yes,Yes
+Time,The number indicates the time associated with each time step for the selected object.,Yes,No,No,No
+Time Since Track Start,Time in secondsfrom the beginning of a track to the end of the track.,Yes,Yes,Yes,No
+Velocity Angle XYZ,"The velocity angle is the angle between the velocity vector and the corresponding axis. Velocity Angle X: The angle between the velocity vector and the x-Axis (1,0,0). Velocity Angle Y: The angle between the velocity vector and the y-Axis (0,1,0). Velocity Angle Z: The angle between the velocity vector and the z-Axis (0,0,1).",Yes (for all 3),Yes (for all 3),Yes (for all 3),No
+Volume,Volume is a quantification of how much space a Surface object occupies.,Yes,Yes,Yes,Yes
+Mean Area Along Track,The mean of the triangle surfaces along the track.,Yes,No,No,No
+Displacement along Track,The object’s Track Displacement is the distance between the first and last object’s position along the selected axis. Note: formulas can be found at: http://www.bitplane.com/download/manuals/ReferenceManual9_1_0.pdf,Yes,No,No,No
+Track Duration,The Track Duration is the duration between the first and last time point within the Track. Note: formulas can be found at: http://www.bitplane.com/download/manuals/ReferenceManual9_1_0.pdf,Yes,Yes,Yes,Yes
+Track Length,The Track Length is the total length of displacements within the Track. Note: formulas can be found at: http://www.bitplane.com/download/manuals/ReferenceManual9_1_0.pdf,Yes,No,No,No
+Number of Fusion along Track,A fusion occurs when a Surface object is connected to several Surface objects of a past time point.,Yes,No,No,No
+Number of Surface Modules Along Track,The total number of Surfaces along the track.,Yes,No,No,No
+"Track Speed Max, Mean, Min, StdDev","Maximum, mean, minimum and standard deviation of the value of the object’s speed on the track.",Yes (for all 4),No,No,No
+Variation of Speed along Track,The Track Speed Variation is defined as the ratio of the Track Standard Deviation to the Track Speed Mean value.The coefficient of variation is a dimensionless number.,Yes,No,No,No
+Straightness of Track,The track straightness is calculated by the track displacement divided by the track length.,Yes,No,No,No
+,,,No,No,No
