@@ -1,7 +1,4 @@
 # LaMDA  [![DOI](https://zenodo.org/badge/253896014.svg)](https://zenodo.org/badge/latestdoi/253896014)
-reStructedText
-.. image:: https://zenodo.org/badge/253896014.svg
-   :target: https://zenodo.org/badge/latestdoi/253896014
 This repository host the data from our recent publication on Lattice Light-Sheet Microscopy Multi-Dimensional Analysis of T-Cell Receptor Dynamics Predict T-Cell Signaling States (link to be added)
 
 ## Raw Data
